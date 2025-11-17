@@ -227,8 +227,16 @@
     function toggleForm() {
       const loginForm = document.getElementById('loginForm');
       const registerForm = document.getElementById('registerForm');
-      loginForm.style.display = loginForm.style.display === 'none' ? 'block' : 'none';
-      registerForm.style.display = registerForm.style.display === 'none' ? 'block' : 'none';
+      
+      if (loginForm.style.display === 'none') {
+        // Show login, hide register
+        loginForm.style.display = 'block';
+        registerForm.style.display = 'none';
+      } else {
+        // Show register, hide login
+        loginForm.style.display = 'none';
+        registerForm.style.display = 'block';
+      }
       clearMessages();
     }
 
