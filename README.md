@@ -100,7 +100,6 @@ Server akan berjalan di: **http://localhost:3000**
 - Tombol "Logout"
 
 ### 3. Create User
-- Klik tombol "Buat User Baru" di dashboard
 - Step 1: Klik "Generate" untuk membuat API key (otomatis tersimpan)
 - Step 2: Isi data user (first name, last name, email)
 - Step 3: Klik "Create User" untuk menyimpan ke database
