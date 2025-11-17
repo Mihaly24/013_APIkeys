@@ -23,7 +23,8 @@ app.use(session({
 const pool = mysql.createPool({
   host: 'localhost',
   user: 'root',
-  password: '',
+  password: 'Invaders_24',
+  port: 3308,
   database: 'apiuser',
   waitForConnections: true,
   connectionLimit: 10,
